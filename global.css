@@ -6,12 +6,12 @@
 }
 
 :root {
-    --color-alerts-green: #FFFFFF;
-    --color-alerts-red: #0F0F0F;
-    --color-secondary-white: #000000;
-    --color-secondary-dark: #4D4D4D;
-    --color-secondary-L_gray: #999999;
-    --color-primary-orange: #FF3CAC;
+    --color-alerts-green: #004E05;
+    --color-alerts-red: #770000;
+    --color-secondary-white: #fff;
+    --color-secondary-dark: #101821;
+    --color-secondary-L_gray: #5C6574;
+    --color-primary-orange: #EA6D27;
 
     /* Fontes */
 
@@ -22,6 +22,6 @@
     --font-button: 20px;
     --font-body: 16px;
 
-    --font-family: "David Libre", serif;
+    --font-title: "David Libre", serif;
     --font-body: "Inter", sans-serif;
 }
