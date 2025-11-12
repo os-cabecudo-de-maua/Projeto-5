@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-alerts-green: #FFFFFF;
+    --color-alerts-red: #0F0F0F;
+    --color-secondary-white: #000000;
+    --color-secondary-dark: #4D4D4D;
+    --color-secondary-L_gray: #999999;
+    --color-primary-orange: #FF3CAC;
+
+    /* Fontes */
+
+    --font-h1: 60px;
+    --font-h2: 48px;
+    --font-h3: 28px;
+    --font-h4: 22px;
+    --font-button: 20px;
+    --font-body: 16px;
+
+    --font-family: "David Libre", serif;
+    --font-body: "Inter", sans-serif;
+}
