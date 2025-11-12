@@ -29,9 +29,30 @@ footer {
     gap: 25px;
 }
 
+.container-content1 img {
+    transition: 0.3s ease-in;
+
+}
+
+.container-content1 img:hover{
+
+    transform: scale(1.3);
+    
+    
+}
+
 .social-icons {
     display: flex;
     gap: 15px;
+}
+
+.social-icons img {
+    transition: 0.3s;
+}
+.social-icons img:hover{
+    filter: invert(1);
+    transform: scale(1.2);
+
 }
 
 .text-group1-footer {
@@ -72,6 +93,15 @@ footer {
     font-family: var(--font-body);
     font-size: var(--font-body);
     color: black;
+}
+
+.nav-footer ul li {
+    transition: 0.3s;
+}
+
+.nav-footer ul li:hover {
+    color: var(--color-secondary-L_gray);
+    transform: scale(1.1);
 }
 
 .container-content2 {
