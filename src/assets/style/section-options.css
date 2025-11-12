@@ -1,0 +1,12 @@
+@import url('./global.css');
+
+.section-options{
+    padding: 60px 0px;
+    gap: 40px;
+    background-color: var(--color-primary-orange);
+    text-align: center;
+}
+
+
+
+
