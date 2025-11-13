@@ -1,46 +1,5 @@
 @import url("../../global.css");
 
-.header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: var(--color-secondary-white);
-    padding: 20px 0px;
-}
-
-.nav-header ul {
-    display: flex;
-    gap: 40px;
-}
-
-.nav-header ul li {
-    list-style: none;
-}
-
-.nav-header ul li a {
-    color: var(--color-secondary-dark);
-}
-
-.btn-header {
-    background-color: var(--color-primary-orange);
-    border: 1px solid;
-    padding: 24px 30px;
-    border-radius: 15px 3px 15px 3px;
-    text-decoration: none;
-    color: var(--color-secondary-white);
-    font-family: var(--font-body);
-}
-
-.nav-header-item {
-    display: flex;
-    gap: 30px;
-    color: var(--color-secondary-dark);
-    text-decoration: none;
-    font-family: var(--font-body);
-    font-size: var(--font-body);
-    transition: 0.3s;
-}
-
 main {
     display: flex;
     align-items: center;
@@ -58,7 +17,7 @@ main .main-text h1 {
     font-family: var(--font-title);
     font-size: var(--font-h1);
     color: var(--color-neutral-black);
-    width: 562px;
+    width: 620px;
 }
 
 .span-text {
@@ -73,7 +32,7 @@ main .main-text p {
     font-size: 16px;
     color: var(--color-secondary-L_gray);
     width: 544px;
-    line-height: 130%;
+    line-height: 30px;
 }
 
 
@@ -101,4 +60,3 @@ main .main-text p {
     color: var(--color-secondary-white);
     background-color: var(--color-primary-orange);
 }
-
