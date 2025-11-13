@@ -40,3 +40,65 @@
     font-size: var(--font-body);
     transition: 0.3s;
 }
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 100px;
+}
+
+main .main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main .main-text h1 {
+    font-family: var(--font-title);
+    font-size: var(--font-h1);
+    color: var(--color-neutral-black);
+    width: 562px;
+}
+
+.span-text {
+    color: var(--color-primary-orange);
+    font-family: var(--font-title);
+    font-size: var(--font-h1);
+}
+
+main .main-text p {
+    display: flex;
+    font-family: var(--font-body);
+    font-size: 16px;
+    color: var(--color-secondary-L_gray);
+    width: 544px;
+    line-height: 130%;
+}
+
+
+.main-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.main-buttons a {
+    font-family: var(--font-title);
+    text-decoration: none;
+    font-size: var(--font-button);
+    border-radius: 15px 3px 15px 3px;
+    padding: 12px 30px;
+}
+
+.btn-primary {
+    background-color: var(--color-secondary-dark);
+    color: var(--color-secondary-white);
+}
+
+
+.btn-secondary {
+    border-radius: 10px;
+    color: var(--color-secondary-white);
+    background-color: var(--color-primary-orange);
+}
+
