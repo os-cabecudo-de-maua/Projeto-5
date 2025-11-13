@@ -1,1 +1,59 @@
 @import url(./global.css);
+
+.section-chef{
+    padding: 60px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+
+}
+
+.image-chef{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.chef-description{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: space-between;
+    width: 503px;
+}
+
+.chef-description h2{
+    font-family: var(--font-title);
+    font-size: var(--font-h2);
+    color: var(--color-secondary-dark);
+    font-style: bold;
+}
+
+.chef-description h2 span{
+   color: var(--color-primary-orange);
+}
+
+.chef-description p{
+    font-family: var(--font-body);
+    font-size: var(--font-body);
+    color: var(--color-secondary-L_gray);
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.butons-chef{
+    display: flex;
+    gap: 20px;
+    align-items: end;
+}
+
+.botao-escuro {
+    background-color: var(--color-secondary-dark);
+    color: var(--color-secondary-white);
+    font-family: var(--font-body);
+    font-size: var(--font-button);
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
